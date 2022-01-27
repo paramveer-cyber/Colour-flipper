@@ -23,4 +23,4 @@ function chroma(){
 }
 
 document.getElementById("flip").addEventListener('click', hex_code, false)
-setInterval(chroma, 150);
+setInterval(chroma, 75);

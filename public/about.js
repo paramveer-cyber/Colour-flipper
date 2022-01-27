@@ -1,10 +1,3 @@
-function colour(){
-    a = ["Red", "Green", "Blue", "Yellow", "Purple", "Lightblue"];
-    b = a[Math.floor(Math.random() * a.length)];
-    document.body.style.backgroundColor = b;
-    document.getElementById("color").textContent = b;
-}
-
 function chroma(){
     let text = document.getElementById("navbar-content");
     let c = "#";
@@ -18,5 +11,4 @@ function chroma(){
     text1.style.color = c;
 }
 
-document.getElementById("flip").addEventListener('click', colour, false)
-setInterval(chroma, 75);
+setInterval(chroma, 75)
