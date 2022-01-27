@@ -1,0 +1,31 @@
+.flip_button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    border: 3px solid white;
+    border-radius: 8px;
+    width: 57%;
+    height: 18%;
+    font-size: 205%;
+    font-family: 'Roboto Slab', serif;
+    cursor: pointer;
+    text-align: center;
+    text-shadow: 50px, black, solid;
+    font: bolder;
+    background-color: #151b18;
+    transition: 1s ease-out;
+}
+.flip_button:hover {
+background-color: rgba(0, 0, 0, 0.863);
+}
+
+.nav-lin{
+    display: flex;
+    font-family: 'Cascadia code';
+    text-decoration: none;
+    font-size: large;
+    text-align: end;
+    margin-top: 500rem;
+}

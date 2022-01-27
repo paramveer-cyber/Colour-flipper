@@ -1,0 +1,14 @@
+{
+  "name": "starting-out-node",
+  "version": "1.0.0",
+  "description": "Just starting out. As the title...",
+  "main": "new.js",
+  "scripts": {
+    "start": "node website.js"
+  },
+  "author": "Paramveer Singh",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
